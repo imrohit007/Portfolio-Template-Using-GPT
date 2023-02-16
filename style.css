@@ -1,0 +1,62 @@
+/* Set the container class to center content */
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+}
+
+header img {
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+}
+
+#projects {
+	background-color: #eee;
+	padding: 50px 0;
+}
+
+.project-item {
+	background-color: #fff;
+	box-shadow: 0px 0px 10px #aaa;
+	margin: 20px;
+	padding: 20px;
+}
+
+.project-item img {
+	width: 100%;
+	height: auto;
+}
+
+#contact {
+	background-color: #fff;
+	padding: 50px 0;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+label, input, textarea {
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	cursor: pointer;
+}
